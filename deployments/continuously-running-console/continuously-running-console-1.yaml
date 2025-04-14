@@ -14,6 +14,4 @@ spec:
     spec:
       containers:
         - name: continuously-running-console
-          image: 267074127319.dkr.ecr.eu-west-1.amazonaws.com/poc-wehkamp
-      imagePullSecrets:
-        - name: awsecr-cred
+          image: 267074127319.dkr.ecr.eu-west-1.amazonaws.com/poc-wehkamp:latest
