@@ -8,7 +8,7 @@ spec:
     namespace: argocd
   source:
     path: applications
-    repoURL: 'git@github.com:MaxBurgersSkyworkz/poc-Wehkamp-ArgoCD-Deployments.git'
+    repoURL: 'https://github.com/MaxBurgersSkyworkz/poc-Wehkamp-ArgoCD-Deployments.git'
     targetRevision: HEAD
     directory:
       recurse: true

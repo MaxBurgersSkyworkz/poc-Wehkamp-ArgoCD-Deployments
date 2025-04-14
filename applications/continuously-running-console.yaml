@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: git@github.com:MaxBurgersSkyworkz/poc-Wehkamp-ArgoCD-Deployments.git
+    repoURL: https://github.com/MaxBurgersSkyworkz/poc-Wehkamp-ArgoCD-Deployments.git
     targetRevision: HEAD
     path: deployments/continuously-running-console
   destination:
